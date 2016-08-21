@@ -36,7 +36,7 @@
                     <div class="col-sm-6">
                         <span><i class="ion-android-call"></i> +01 614-871-8100</span>
                         <span><i class="ion-ios-email"></i> info@capitalcitymech.com</span>
-                        <span><i class="ion-clock"></i> Operating Hours: 24/7</span>
+                        <span><i class="ion-clock"></i> Hours: 24/7</span>
                     </div>
                     <div class="col-sm-6">
                         <ul class="list-inline text-right">
@@ -64,7 +64,18 @@
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="dropdown active">
+                        <li><a href="index.html">Home </a></li>
+                        <li><a href="index.html">Pay Bill </a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="service.html">All Services</a></li>
+                                <li><a href="renovation-service.html">Residential </a></li>
+                                <li><a href="management-service.html">Commercial </a></li>
+                                <li><a href="construction-service.html">Industrial </a></li>
+                            </ul>
+                        </li>
+                        <!-- <li class="dropdown active">
                             <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Home <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="index.html">V1 - Default Slider</a></li>
@@ -87,10 +98,10 @@
                                         </li>
                                     </ul>
                                 </li>
-                            </ul>
+                            </ul> -->
                         </li>
                         <li><a href="about.html">About</a></li>
-                           <li class="dropdown">
+                        <li class="dropdown">
                             <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="projects-2col.html">2 Columns</a></li>
@@ -101,31 +112,11 @@
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="service.html">All Services</a></li>
-                                <li><a href="renovation-service.html">House renovation</a></li>
-                                <li><a href="management-service.html">Project management</a></li>
-                                <li><a href="construction-service.html">Construction</a></li>
-                                <li><a href="interior-service.html">Interior design</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Features <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="typography.html">Typography</a></li>
-                                <li><a href="tabs.html">Tabs</a></li>
-                                <li><a href="accordoins.html">Accordions</a></li>
-                                <li><a href="grid-system.html">Grid System</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown">
                             <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="blog.html">Blog</a></li>
                                 <li><a href="post.html">Blog Post</a></li>
                                 <li><a href="contact.html">Contact</a></li>
-                                 
                                 <li><a href="gallery.html">Gallery</a></li>
                                 <li><a href="error-404.html">Error-404</a></li>
                                 <li><a href="full-width.html">Page Full Width</a></li>
@@ -151,7 +142,7 @@
             <!-- Master Slider -->
             <div class="master-slider ms-skin-default" id="masterslider"> 
 
-                <!-- slide 1 -->
+                <!-- slide 0 -->
                 <div class="ms-slide slide-1" data-delay="14"> 
 
                     <!-- slide background --> 
@@ -190,35 +181,79 @@
                        data-delay="3000"
                        data-ease="easeOutExpo"
                        data-duration="2200"
-                       data-effect="scale(1.5,1.6)"> Purchase Now! <i class="ion-ios-arrow-right"></i></a> </div>
-                <!-- end of slide --> 
+                       data-effect="scale(1.5,1.6)"> Purchase Now! <i class="ion-ios-arrow-right"></i></a>
+                </div>
+                <!-- end of slide -->
+
+                <!-- slide 1 -->
+                <div class="ms-slide slide-1" data-delay="10">
+
+                    <!-- slide background -->
+                    <img src="masterslider/style/blank.gif" data-src="images/ccm_residential_van_background.jpg" alt="Slide1 background"/>
+                    <h3 class="ms-layer sub-title3 text-center white text-uppercase"
+                        style="left:150px; top:200px;"
+                        data-type="text"
+                        data-delay="1000"
+                        data-duration="2000"
+                        data-ease="easeOutExpo"
+                        data-effect="rotate3dtop(-100,0,0,40,t)">We are</h3>
+                    <h3 class="ms-layer title2 text-uppercase text-center"
+                        style="left:150px;top: 260px;"
+                        data-type="text"
+                        data-delay="1500"
+                        data-duration="2500"
+                        data-ease="easeOutExpo"
+                        data-effect="rotate3dtop(-100,0,0,40,t)"><span class="color_text">Residential Projects</span></h3>
+                    <h5 class="ms-layer sub-title2 text-uppercase"
+                        style="left:150px; top: 330px;"
+                        data-type="text"
+                        data-effect="bottom(45)"
+                        data-duration="3000"
+                        data-delay="2000"
+                        data-ease="easeOutExpo">residential / commercial / industrial</h5>
+                    <a class="ms-layer btn1" href="#"
+                       style="left: 150px; top:380px;"
+                       data-type="text"
+                       data-delay="2500"
+                       data-ease="easeOutExpo"
+                       data-duration="2000"
+                       data-effect="scale(1.5,1.6)"> Learn More <i class="ion-ios-arrow-right"></i> </a>
+                    <a class="ms-layer btn2" href="#"
+                       style="left: 320px; top:380px;"
+                       data-type="text"
+                       data-delay="3000"
+                       data-ease="easeOutExpo"
+                       data-duration="2200"
+                       data-effect="scale(1.5,1.6)"> Contact us Now! <i class="ion-ios-arrow-right"></i></a>
+                </div>
+                <!-- end of slide -->
 
                 <!-- slide 2 -->
-                <div class="ms-slide slide-2" data-delay="14"> 
+                <div class="ms-slide slide-2" data-delay="14">
 
-                    <!-- slide background --> 
-                    <img src="masterslider/style/blank.gif" data-src="images/bg-2.jpg" alt="Slide1 background"/>
+                    <!-- slide background -->
+                    <img src="masterslider/style/blank.gif" data-src="images/ccm_hvac_work_1.jpg" alt="Slide2 background"/>
                     <h3 class="ms-layer sub-title3 text-uppercase"
                         style="left:110px; top:205px;"
                         data-type="text"
                         data-delay="1000"
                         data-duration="2000"
                         data-ease="easeOutExpo"
-                        data-effect="rotate3dtop(-100,0,0,40,t)">We build</h3>
+                        data-effect="rotate3dtop(-100,0,0,40,t)">We Are</h3>
                     <h3 class="ms-layer title2  text-uppercase"
                         style="left:110px;top: 260px;"
                         data-type="text"
                         data-delay="1500"
                         data-duration="2500"
                         data-ease="easeOutExpo"
-                        data-effect="rotate3dtop(-100,0,0,40,t)">Awesome projects</h3>
+                        data-effect="rotate3dtop(-100,0,0,40,t)"><span class="color_text">Commercial Projects</span></h3>
                     <h5 class="ms-layer sub-title2 text-uppercase"
                         style="left:110px; top:330px;"
                         data-type="text"
                         data-effect="bottom(45)"
                         data-duration="3000"
                         data-delay="2000"
-                        data-ease="easeOutExpo">Development dolor sit amet consectetur adipiscing Phasellus</h5>
+                        data-ease="easeOutExpo">Allow our small business to help yours</h5>
                     <a class="ms-layer btn1" href="#"
                        style="left:110px; top:380px;"
                        data-type="text"
@@ -232,50 +267,51 @@
                             data-delay="3000"
                             data-ease="easeOutExpo"
                             data-duration="2200"
-                            data-effect="scale(1.5,1.6)"> Purchase Now! <i class="ion-ios-arrow-right"></i></a> </div>
-                <!-- end of slide --> 
+                            data-effect="scale(1.5,1.6)"> Purchase Now! <i class="ion-ios-arrow-right"></i></a>
+                </div>
+                <!-- end of slide -->
 
-                <!-- slide 1 -->
-                <div class="ms-slide slide-2" data-delay="14"> 
-
-                    <!-- slide background --> 
-                    <img src="masterslider/style/blank.gif" data-src="images/bg-3.jpg" alt="Slide1 background"/>
+                <!-- slide 3 -->
+                <div class="ms-slide slide-3" data-delay="14">
+                    <!-- slide background -->
+                    <img src="masterslider/style/blank.gif" data-src="images/ccm_hvac_work_2.jpg" alt="Slide3 background"/>
                     <h3 class="ms-layer sub-title2 full-wid text-center text-uppercase"
                         style="left:0; top:200px;"
                         data-type="text"
                         data-delay="1000"
                         data-duration="2000"
                         data-ease="easeOutExpo"
-                        data-effect="rotate3dtop(-100,0,0,40,t)">Interior  -  Construction  -  Renovation</h3>
+                        data-effect="rotate3dtop(-100,0,0,40,t)">We are</h3>
                     <h3 class="ms-layer title2 one full-wid font-sbold white text-uppercase text-center"
                         style="left:0;top: 250px;"
                         data-type="text"
                         data-delay="1500"
                         data-duration="2500"
                         data-ease="easeOutExpo"
-                        data-effect="rotate3dtop(-100,0,0,40,t)">We offer Multi Services</h3>
+                        data-effect="rotate3dtop(-100,0,0,40,t)"><span class="color_text">Industrial Projects</span></h3>
                     <h5 class="ms-layer sub-title2 full-wid white text-uppercase text-center"
                         style="left:0px; top: 330px;"
                         data-type="text"
                         data-effect="bottom(45)"
                         data-duration="3000"
                         data-delay="2000"
-                        data-ease="easeOutExpo">Development dolor sit amet consectetur adipiscing Phasellus</h5>
+                        data-ease="easeOutExpo">Allow our Company to help your large business</h5>
                     <a class="ms-layer btn1 uppercase" href="#"
                        style="left: 530px; top:380px;"
                        data-type="text"
                        data-delay="2500"
                        data-ease="easeOutExpo"
                        data-duration="2000"
-                       data-effect="scale(1.5,1.6)"> Learn More <i class="ion-ios-arrow-right"></i> </a> 
+                       data-effect="scale(1.5,1.6)"> Learn More <i class="ion-ios-arrow-right"></i> </a>
                     <a class="ms-layer btn2 uppercase" href="#"
                        style="left: 700px; top:380px;"
                        data-type="text"
                        data-delay="3000"
                        data-ease="easeOutExpo"
                        data-duration="2200"
-                       data-effect="scale(1.5,1.6)"> Purchase Now! <i class="ion-ios-arrow-right"></i></a> </div>
-                <!-- end of slide --> 
+                       data-effect="scale(1.5,1.6)"> Purchase Now! <i class="ion-ios-arrow-right"></i></a>
+                </div>
+                <!-- end of slide -->
             </div>
         </div>
         <!-- end Master Slider -->
@@ -287,8 +323,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-8 wow animated fadeInDown" data-wow-delay="0.2s">
-                        <h3>Do you need Professionals to build your dream home?</h3>
-                        <p>We offer the best home services lorem ipsum dolor sit amet</p>
+                        <h3>Our diverse team of experts are here to help you!</h3>
+                        <p>Whether it's your home or small business let our in office experts talk over your project with you. </p>
                     </div>
                     <div class="col-sm-4 text-center wow animated fadeInUp" data-wow-delay="0.4s">
                         <a href="#" class=" btn btn-skin btn-xl">Contact us <i class="ion-em"></i></a>
@@ -307,7 +343,7 @@
                     <h1>We are <span class="color_text">PASSIONATE</span> about our work</h1>
                     <div class="border-width"></div>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        Whether it's upgrading a bathroom in a home, replacing an HVAC system in a small business, or working in an industrial setting. Our business cares about doing the job right the first time.
                     </p>
                     <hr>
                     <div class="buttons">
@@ -325,7 +361,7 @@
                             <h4 class="text-uppercase">15 Years of experience</h4>
                             <div class="border-width"></div>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                Founded in 2001. The company has grown to be a large success, experiencing all of the tricks to the trade along the way.
                             </p>
                         </div>
                     </div>
@@ -337,7 +373,7 @@
                             <h4 class="text-uppercase">Professionals</h4>
                             <div class="border-width"></div>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                Background-checked, certified, and well-trained employees.
                             </p>
                         </div>
                     </div>
@@ -349,7 +385,7 @@
                             <h4 class="text-uppercase">Modern Technologies</h4>
                             <div class="border-width"></div>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                Using only the latest &amp greatest technologies in our fields. Offering the the quickest &amp highest quality work.
                             </p>
                         </div>
                     </div>
