@@ -63,6 +63,14 @@ blockquote {
 .full-wid {
   width: 100%; }
 
+.navbar-brand
+{
+  float: left;
+  height: 75px;
+  padding: 5px 15px;
+  font-size: 18px;
+  line-height: 20px;
+}
 /**spaces**/
 .space10 {
   height: 10px; }
