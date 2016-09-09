@@ -60,6 +60,17 @@ blockquote {
     font-weight: 600;
     color: #edac15; }
 
+#blacken
+{
+  color: black;
+}
+
+#map
+{
+  width: 75%;
+  height: 480px;
+}
+
 .full-wid {
   width: 100%; }
 

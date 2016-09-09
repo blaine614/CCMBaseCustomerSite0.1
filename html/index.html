@@ -51,6 +51,7 @@
           <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
+
     </head>
     <body>
 
@@ -214,7 +215,8 @@
 
                     <!-- slide background -->
                     <img src="masterslider/style/blank.gif" data-src="images/residential_plumbing.jpg" alt="Slide1 background"/>
-                    <h3 class="ms-layer sub-title3 text-center white text-uppercase"
+                    <h3 id="blacken"
+                        class="ms-layer sub-title3 text-center white text-uppercase"
                         style="left:150px; top:200px;"
                         data-type="text"
                         data-delay="1000"
@@ -228,13 +230,14 @@
                         data-duration="2500"
                         data-ease="easeOutExpo"
                         data-effect="rotate3dtop(-100,0,0,40,t)"><span class="color_text">Residential Projects</span></h3>
-                    <h5 class="ms-layer sub-title2 text-uppercase"
+                    <h5 id="blacken"
+                        class="ms-layer sub-title2 text-uppercase"
                         style="left:150px; top: 330px;"
                         data-type="text"
                         data-effect="bottom(45)"
                         data-duration="3000"
                         data-delay="2000"
-                        data-ease="easeOutExpo">residential / commercial / industrial</h5>
+                        data-ease="easeOutExpo">Plumbing  |  Heating  |  Cooling  |  Drain Inspection, Cleaning, & Repair </h5>
                     <a class="ms-layer btn1" href="#"
                        style="left: 150px; top:380px;"
                        data-type="text"
@@ -466,7 +469,7 @@
                                 <a href="#"><img src="images/drain_inspection_pic.jpg" alt="" class="img-responsive"></a>
                             </div>
                             <div class="service-desc">
-                                <h4 class="text-uppercase"> Drain Cleaning and Camera Inspection </h4>
+                                <h4 class="text-uppercase"> Drains: Cleaning and Camera Inspection </h4>
                                 <div class="border-width"></div>
                                 <p>
                                     We offer full drain inspection and repair. Using a high resolution pipe camera we are able to see, locate, and repair the part of your drain at the root of the problems.
@@ -784,13 +787,66 @@
             </div>
         </div>
         -->
-        <div class="space50"></div>
+
+        <div class="space80"></div>
+
+        <!-- Start Google Maps stuff -->
+        <div class="container">
+            <div class="row">
+                <div class="center-title margin-btm-30">
+                    <h1>OUR LOCATION</h1>
+                    <div class="border-width center-align"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" id="map"></div>
+        <script>
+            // This example requires the Places library. Include the libraries=places
+            // parameter when you first load the API. For example:
+            // <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places">
+
+            function initMap() {
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    center: {lat: 39.845035, lng: -83.089471},
+                    zoom: 10
+                });
+
+                var infowindow = new google.maps.InfoWindow();
+                var service = new google.maps.places.PlacesService(map);
+
+                service.getDetails({
+                    placeId: 'ChIJzXwpfLCcOIgRC4yaulmJC9M'
+                }, function(place, status) {
+                    if (status === google.maps.places.PlacesServiceStatus.OK) {
+                        var marker = new google.maps.Marker({
+                            map: map,
+                            position: place.geometry.location
+                        });
+                        google.maps.event.addListener(marker, 'click', function() {
+                            infowindow.setContent('<div><strong>' + place.name + '</strong><br>' +
+                                    'Place ID: ' + place.place_id + '<br>' +
+                                    place.formatted_address + '</div>');
+                            infowindow.open(map, this);
+                        });
+                    }
+                });
+            }
+        </script>
+        <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXMXrm5W45b8M_dN0fljB52kxlG6DOpbg&callback=initMap">
+        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXMXrm5W45b8M_dN0fljB52kxlG6DOpbg&libraries=places"></script>
+        <!-- End Google Maps stuff -->
+
+
+        <div class="space80"></div>
 
         <div class="c_info_bar wow animated fadeIn" data-wow-delay="0.3s">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 text-center margin-btm-30">
-                        <h4><i class="ion-ios-time"></i> Monday - Friday 9AM - 6PM / Saturday & Sunday By Request / 24 Hour Emergency Service</h4>
+                        <h4><i class="ion-ios-time"></i> Monday - Friday 9AM - 6PM | Saturday & Sunday By Request | 24 Hour Emergency Service</h4>
                     </div>
                 </div>
             </div>
@@ -804,7 +860,7 @@
                         <a href="index.html"><img src="images/ccm_navbar_logo.png" alt=""></a>
                         <div class="space30"></div>
                         <p>
-                            Sed ut perspiciatis unde omnis doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                            Welcome to Capital City Mechanical Incorporated, where delivering high quality, low cost professional services to residential, commercial & industrial clients is our #1 priority. Specializing in Process Piping, Plumbing and HVAC services, you can count on us to deliver on time while exceeding the industry standard.
                         </p>
                         <a href="#" class="btn btn-link">Read More</a>
                     </div>
@@ -821,22 +877,22 @@
                         <h3>Latest Projects</h3>
                         <div class="latest-projects">
                             <a href="#">
-                                <img src="images/work-1.jpg" alt="" class="img-responsive">
+                                <img src="images/ccm_hvac_work_0.jpg" alt="" class="img-responsive">
                             </a>
                             <a href="#">
-                                <img src="images/work-2.jpg" alt="" class="img-responsive">
+                                <img src="images/ccm_hvac_work_1.jpg" alt="" class="img-responsive">
                             </a>
                             <a href="#">
-                                <img src="images/work-3.jpg" alt="" class="img-responsive">
+                                <img src="images/ccm_hvac_work_2.jpg" alt="" class="img-responsive">
                             </a>
                             <a href="#">
-                                <img src="images/work-4.jpg" alt="" class="img-responsive">
+                                <img src="images/ccm_hvac_work_3.jpg" alt="" class="img-responsive">
                             </a>
                             <a href="#">
-                                <img src="images/work-5.jpg" alt="" class="img-responsive">
+                                <img src="images/ccm_hvac_work_6.jpg" alt="" class="img-responsive">
                             </a>
                             <a href="#">
-                                <img src="images/work-6.jpg" alt="" class="img-responsive">
+                                <img src="images/ccm_hvac_work_5.jpg" alt="" class="img-responsive">
                             </a>
                         </div>
                     </div>
