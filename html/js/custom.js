@@ -130,4 +130,13 @@ $(document).ready(function () {
 
         return false;
     });
+
+    //Google Maps disable scroll wheel annoying bullshit when going over map
+    $('.map .mapHalfWidth').click(function () {
+        $('.map .mapHalfWidth').css("pointer-events", "auto");
+    });
+
+    $('.map .mapHalfWidth').mouseleave(function() {
+        $('.map .mapHalfWidth').css("pointer-events", "none");
+    });
 });
