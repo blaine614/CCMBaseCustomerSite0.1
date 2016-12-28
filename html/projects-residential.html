@@ -56,15 +56,15 @@
         <div class="top-bar">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-sm-10">
                         <span><i class="ion-android-call"></i> +01 614-871-8100</span>
                         <span><i class="ion-ios-email"></i> info@capitalcitymech.com</span>
-                        <span><i class="ion-clock"></i>Monday - Friday 7AM - 7PM | Weekends By Request
+                        <span><i class="ion-clock"></i>Monday - Friday 8AM - 5PM | Weekends By Request
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-2">
                         <ul class="list-inline text-right">
                             <li><a href="https://www.facebook.com/capcitymechanical/"><i class="ion-social-facebook"></i></a></li>
-                            <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+                            <li><a href="https://plus.google.com/103285107998451098574?hl=en"><i class="ion-social-googleplus"></i></a></li>
                             <li><a href="https://www.linkedin.com/company/capital-city-mechanical"><i class="ion-social-linkedin"></i></a></li>
                         </ul>
                     </div>
@@ -88,7 +88,7 @@
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="index.html">Home </a></li>
-                        <li><a href="index.html">Pay Bill </a></li>
+                        <!-- <li><a href="index.html">Pay Bill </a></li> -->
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
                             <ul class="dropdown-menu">
@@ -103,9 +103,9 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="projects-2col.html">Residential</a></li>
-                                <li><a href="projects.html">Commercial</a></li>
-                                <li><a href="projects-4col.html">Industrial</a></li>
+                                <li><a href="projects-residential.html">Residential</a></li>
+                                <li><a href="projects-residential.html">Commercial</a></li>
+                                <li><a href="projects-residential.html">Industrial</a></li>
                             </ul>
                         </li>
                         <li><a href="about.html">About</a></li>
@@ -117,70 +117,93 @@
 
         <div class="page-title pattern">
             <div class="container text-center">
-                <h1>Contact us</h1>
+                <h1>Projects</h1>
             </div>
         </div><!--page title end-->
-        <!-- Google Maps -->
-        <section class="google-map">
-            <div id="googlemaps" class="google-map" style="height: 450px;width:100%;"></div>
-        </section>
-        <!-- Google Maps End -->
-         <div class="space80"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-8 margin-btm-30">
-                    <form method="post" action="#" class="b-contact">
-                        <div class="row">
-                            <div class="col-sm-12"> 
-                                <div class="row">
-                                    <div class="col-sm-12 margin-btm-20">
-                                        <input type="text" name="name" class="form-control" placeholder="Full Name...." />
-                                    </div>
-                                    <div class="col-sm-12 margin-btm-20">
-                                        <input type="text" name="email" class="form-control" placeholder="Email Address...." />
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-12">
-                                <textarea name="message" class="form-control margin-btm-20" rows="5" placeholder="Message...."></textarea>                                  
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-12 text-center">
-                                <div class="data-status animated fadeInDown"></div> <!-- data submit status -->
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-12 text-right">
-                                <button type="submit" name="submit" class="btn btn-xl btn-skin margin-b-20">Submit</button>
-                            </div>
-                        </div>
-                    </form>
-                </div><!--contact col end-->
-                <div class="col-sm-3 col-sm-offset-1">
+        <div class="space80"></div>
 
-                    <div class="sidebar-widget">
-                        <h3>Contact info</h3>
-                        <hr>
-                        <span class="margin-btm-10">
-                            45 Park Avenue, Apt. 303 <br>
-                            Columbia, 302012
-                        </span><br>
-                        <span><b>Phone:</b> +01 555-555-555</span><br>
-                        <span><b>Email:</b> info@bpress.com</span>
-                    </div><!--sidebar widget-->
-                    <div class="sidebar-widget">
-                        <h3>Contact info</h3>
-                        <hr>
-                        <ul class="list-inline social">
-                            <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-                            <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-                            <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-                            <li><a href="#"><i class="ion-social-linkedin"></i></a></li>
-                            <li><a href="#"><i class="ion-social-instagram"></i></a></li>
-                        </ul>
-                    </div><!--sidebar widget-->
-                </div>
+        <div class="container">
+            <ul class="project-filters list-inline text-center">
+                <li class="filter active" data-filter="all">all</li>
+                <li class="filter" data-filter=".plumbing">Plumbing</li>
+                <li class="filter" data-filter=".hvac">Heating &amp; Cooling</li>
+                <li class="filter" data-filter=".drain-service">Drain Service</li>
+                <li class="filter" data-filter=".excavation">Excavation</li>
+            </ul><!--filter list-->
+            <div class="space30"></div>
+            <div class="row" id="grid">
+                <div class="col-sm-4 margin-btm-30 mix interior">
+                    <a class="prject-box" href="#">
+                    <img src="images/work-1.jpg" alt="" class="img-responsive">
+                    <div class="project-overlay">
+                        <h4 class="text-capitalize">Project title <i class="ion-android-arrow-forward"></i></h4>
+                    </div>
+                </a>
+                </div><!--col end-->
+                <div class="col-sm-4 margin-btm-30 mix renovation">
+                    <a class="prject-box" href="#">
+                    <img src="images/work-2.jpg" alt="" class="img-responsive">
+                    <div class="project-overlay">
+                        <h4 class="text-capitalize">Project title <i class="ion-android-arrow-forward"></i></h4>
+                    </div>
+                </a>
+                </div><!--col end-->
+                <div class="col-sm-4 margin-btm-30 mix project-management">
+                    <a class="prject-box" href="#">
+                    <img src="images/work-3.jpg" alt="" class="img-responsive">
+                    <div class="project-overlay">
+                        <h4 class="text-capitalize">Project title <i class="ion-android-arrow-forward"></i></h4>
+                    </div>
+                </a>
+                </div><!--col end-->
+                <div class="col-sm-4 margin-btm-30 mix constrcution">
+                    <a class="prject-box" href="#">
+                    <img src="images/work-4.jpg" alt="" class="img-responsive">
+                    <div class="project-overlay">
+                        <h4 class="text-capitalize">Project title <i class="ion-android-arrow-forward"></i></h4>
+                    </div>
+                </a>
+                </div><!--col end-->
+                <div class="col-sm-4 margin-btm-30 mix interior constrcution">
+                     <a class="prject-box" href="#">
+                    <img src="images/work-5.jpg" alt="" class="img-responsive">
+                    <div class="project-overlay">
+                        <h4 class="text-capitalize">Project title <i class="ion-android-arrow-forward"></i></h4>
+                    </div>
+                </a>
+                </div><!--col end-->
+                <div class="col-sm-4 margin-btm-30 mix project-management">
+                     <a class="prject-box" href="#">
+                    <img src="images/work-6.jpg" alt="" class="img-responsive">
+                    <div class="project-overlay">
+                        <h4 class="text-capitalize">Project title <i class="ion-android-arrow-forward"></i></h4>
+                    </div>
+                </a>
+                </div><!--col end-->
+                <div class="col-sm-4 margin-btm-30 mix interior">
+                    <a class="prject-box" href="#">
+                    <img src="images/work-7.jpg" alt="" class="img-responsive">
+                    <div class="project-overlay">
+                        <h4 class="text-capitalize">Project title <i class="ion-android-arrow-forward"></i></h4>
+                    </div>
+                </a>
+                </div><!--col end-->
+                <div class="col-sm-4 margin-btm-30 mix constrcution">
+                    <a class="prject-box" href="#">
+                    <img src="images/work-8.jpg" alt="" class="img-responsive">
+                    <div class="project-overlay">
+                        <h4 class="text-capitalize">Project title <i class="ion-android-arrow-forward"></i></h4>
+                    </div>
+                </a>
+                </div><!--col end-->
+                   <div class="col-sm-4 margin-btm-30 mix renovation">
+                    <a class="prject-box" href="#">
+                    <img src="images/work-9.jpg" alt="" class="img-responsive">
+                    <div class="project-overlay">
+                        <h4 class="text-capitalize">Project title <i class="ion-android-arrow-forward"></i></h4>
+                    </div>
+                </a>
+                </div><!--col end-->
             </div>
         </div>
 
@@ -206,47 +229,48 @@
                 </div>
             </div>
         </div>
+
         <!--footer-->
         <footer class="footer">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 margin-btm-30">
-                        <a href="index.html"><img src="images/logo.png" alt=""></a>
+                        <a href="index.html"><img src="images/ccm_navbar_logo.png" alt=""></a>
                         <div class="space30"></div>
                         <p>
-                            Sed ut perspiciatis unde omnis doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                            Welcome to Capital City Mechanical Incorporated, where delivering high quality, low cost professional services to residential, commercial & industrial clients is our #1 priority. Specializing in Process Piping, Plumbing and HVAC services, you can count on us to deliver on time while exceeding the industry standard.
                         </p>
-                        <a href="#" class="btn btn-link">Read More</a>
+                        <a href="about.html" class="btn btn-link">Read More</a>
                     </div>
                     <div class="col-md-3 margin-btm-30">
                         <h3>Our Services</h3>
                         <ul class="list-unstyled">
-                            <li><a href="#">Interior Designs</a></li>
-                            <li><a href="#">Project Management</a></li>
-                            <li><a href="#">House Renovation</a></li>
-                            <li><a href="#">Constructions</a></li>
-                        </ul>                        
+                            <li><a href="plumbing.html">Plumbing</a></li>
+                            <li><a href="heating-and-cooling.html">Heating &amp; Cooling</a></li>
+                            <li><a href="drain_service.html">Drain Service</a></li>
+                            <li><a href="project-management.html">Project Management</a></li>
+                        </ul>
                     </div>
                     <div class="col-md-5">
                         <h3>Latest Projects</h3>
                         <div class="latest-projects">
-                            <a href="#">
-                                <img src="images/work-1.jpg" alt="" class="img-responsive">
+                            <a href="projects-residential.html">
+                                <img src="images/ccm_hvac_work_0.jpg" alt="" class="img-responsive">
                             </a>
-                            <a href="#">
-                                <img src="images/work-2.jpg" alt="" class="img-responsive">
+                            <a href="projects-residential.html">
+                                <img src="images/ccm_hvac_work_1.jpg" alt="" class="img-responsive">
                             </a>
-                            <a href="#">
-                                <img src="images/work-3.jpg" alt="" class="img-responsive">
+                            <a href="projects-residential.html">
+                                <img src="images/ccm_hvac_work_2.jpg" alt="" class="img-responsive">
                             </a>
-                            <a href="#">
-                                <img src="images/work-4.jpg" alt="" class="img-responsive">
+                            <a href="projects-residential.html">
+                                <img src="images/ccm_hvac_work_3.jpg" alt="" class="img-responsive">
                             </a>
-                            <a href="#">
-                                <img src="images/work-5.jpg" alt="" class="img-responsive">
+                            <a href="projects-residential.html">
+                                <img src="images/ccm_hvac_work_6.jpg" alt="" class="img-responsive">
                             </a>
-                            <a href="#">
-                                <img src="images/work-6.jpg" alt="" class="img-responsive">
+                            <a href="projects-residential.html">
+                                <img src="images/ccm_hvac_work_5.jpg" alt="" class="img-responsive">
                             </a>
                         </div>
                     </div>
@@ -255,15 +279,14 @@
                 <div class="row">
                     <div class="col-sm-7">
                         <ul class="list-inline">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Terms & Conditions</a></li>
-                        </ul>   
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="service.html">Services</a></li>
+                            <li><a href="about.html">Terms & Conditions</a></li>
+                        </ul>
                     </div>
                     <div class="col-sm-5 text-right">
-                        <span>&copy; 2016. All Right Reserved. Bpress</span> 
+                        <span>&copy; 2016. All Right Reserved. Capital City Mechanical.</span>
                     </div>
                 </div>
             </div>
@@ -283,31 +306,13 @@
         <script src="js/jquery.stellar.min.js"></script>
         <script src="owl-carousel/owl.carousel.min.js"></script>
         <script src="lightbox2/dist/js/lightbox.min.js"></script>
-        <script src="contact_form/contact.js"></script>
         <script src="js/custom.js"></script>
-        <!-- Google Maps -->
-        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
-        <script src="js/jquery.gmaps.min.js"></script>
-        <script type="text/javascript">
-            (function ($) {
-                $(document).ready(function () {
-
-                    $('#googlemaps').gMap({
-                        maptype: 'ROADMAP',
-                        scrollwheel: false,
-                        zoom: 13,
-                        markers: [
-                            {
-                                address: 'Lorem Ipsum, Columbia', // Your Adress Here
-                                html: '<strong>Our Office</strong><br>45 Lorem Ipsum, Apt. 303 </br>Columbia, 302012 ',
-                                popup: true
-                            }
-                        ]
-                    });
-
-                });
-
-            })(this.jQuery);
+        <!--page script-->
+        <script src="js/jquery.mixitup.js"></script>
+        <script>
+            $(function () {
+                $('#grid').mixItUp();
+            });
         </script>
     </body>
 </html>
