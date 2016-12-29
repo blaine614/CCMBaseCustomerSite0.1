@@ -2,24 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85d22161-19fd-4f06-a762-6063af607433" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/projects/commercial/commercial-bathroom-0.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/projects/commercial/commercial-toilet-0.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/projects/commercial/commercial-water-fountain-0.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/projects/commercial/commercial-water-fountain-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/projects/commercial/commercial-water-fountain-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/projects/residential/residential-shower-0.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/images/projects/commercial/commercial-bathroom-0.jpg" afterPath="$PROJECT_DIR$/html/images/projects/commercial/commercial-bathroom-0.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/images/projects/commercial/commercial-toilet-0.jpg" afterPath="$PROJECT_DIR$/html/images/projects/commercial/commercial-toilet-0.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/images/projects/commercial/commercial-water-fountain-0.jpg" afterPath="$PROJECT_DIR$/html/images/projects/commercial/commercial-water-fountain-0.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/images/projects/commercial/commercial-water-fountain-1.jpg" afterPath="$PROJECT_DIR$/html/images/projects/commercial/commercial-water-fountain-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/images/projects/commercial/commercial-water-fountain-2.jpg" afterPath="$PROJECT_DIR$/html/images/projects/commercial/commercial-water-fountain-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/images/projects/residential/residential-shower-0.jpg" afterPath="$PROJECT_DIR$/html/images/projects/residential/residential-shower-0.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/about.html" afterPath="$PROJECT_DIR$/html/about.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/contact.html" afterPath="$PROJECT_DIR$/html/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/drain_service.html" afterPath="$PROJECT_DIR$/html/drain_service.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/heating-and-cooling.html" afterPath="$PROJECT_DIR$/html/heating-and-cooling.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/index.html" afterPath="$PROJECT_DIR$/html/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/pay-bill.html" afterPath="$PROJECT_DIR$/html/pay-bill.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/plumbing.html" afterPath="$PROJECT_DIR$/html/plumbing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/project-management.html" afterPath="$PROJECT_DIR$/html/project-management.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/projects-commercial-industrial.html" afterPath="$PROJECT_DIR$/html/projects-commercial-industrial.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/projects-residential.html" afterPath="$PROJECT_DIR$/html/projects-residential.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/service.html" afterPath="$PROJECT_DIR$/html/service.html" />
     </list>
     <ignored path="CCMBaseCustomerSite0.1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,107 +34,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/contact.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="107" column="32" selection-start-line="107" selection-start-column="32" selection-end-line="107" selection-end-column="32" />
-              <folding>
-                <element signature="e#9446#9451#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="drain_service.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/drain_service.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="105" column="32" selection-start-line="105" selection-start-column="32" selection-end-line="105" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="heating-and-cooling.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/heating-and-cooling.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
-              <caret line="105" column="32" selection-start-line="105" selection-start-column="32" selection-end-line="105" selection-end-column="32" />
-              <folding>
-                <element signature="e#6426#6431#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="590">
-              <caret line="108" column="32" selection-start-line="108" selection-start-column="32" selection-end-line="108" selection-end-column="32" />
+            <state relative-caret-position="-6755">
+              <caret line="267" column="0" selection-start-line="267" selection-start-column="0" selection-end-line="267" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pay-bill.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/pay-bill.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="107" column="32" selection-start-line="107" selection-start-column="32" selection-end-line="107" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="plumbing.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/plumbing.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="107" column="32" selection-start-line="107" selection-start-column="32" selection-end-line="107" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="project-management.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/project-management.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
-              <caret line="105" column="32" selection-start-line="105" selection-start-column="32" selection-end-line="105" selection-end-column="32" />
-              <folding>
-                <element signature="e#6426#6431#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="projects-residential.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/projects-residential.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="105" column="32" selection-start-line="105" selection-start-column="32" selection-end-line="105" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="service.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/service.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="107" column="52" selection-start-line="107" selection-start-column="52" selection-end-line="107" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="projects-commercial-industrial.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="projects-commercial-industrial.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/projects-commercial-industrial.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="105" column="32" selection-start-line="105" selection-start-column="32" selection-end-line="105" selection-end-column="32" />
+            <state relative-caret-position="3434">
+              <caret line="202" column="56" selection-start-line="202" selection-start-column="56" selection-end-line="202" selection-end-column="56" />
               <folding>
                 <element signature="e#7780#7785#0" expanded="true" />
               </folding>
@@ -184,16 +90,16 @@
         <option value="$PROJECT_DIR$/html/js/custom.js" />
         <option value="$PROJECT_DIR$/html/css/style.css" />
         <option value="$PROJECT_DIR$/html/about.html" />
-        <option value="$PROJECT_DIR$/html/contact.html" />
         <option value="$PROJECT_DIR$/html/drain_service.html" />
         <option value="$PROJECT_DIR$/html/heating-and-cooling.html" />
-        <option value="$PROJECT_DIR$/html/index.html" />
         <option value="$PROJECT_DIR$/html/pay-bill.html" />
         <option value="$PROJECT_DIR$/html/plumbing.html" />
         <option value="$PROJECT_DIR$/html/project-management.html" />
-        <option value="$PROJECT_DIR$/html/projects-commercial-industrial.html" />
         <option value="$PROJECT_DIR$/html/projects-residential.html" />
         <option value="$PROJECT_DIR$/html/service.html" />
+        <option value="$PROJECT_DIR$/html/contact.html" />
+        <option value="$PROJECT_DIR$/html/index.html" />
+        <option value="$PROJECT_DIR$/html/projects-commercial-industrial.html" />
       </list>
     </option>
   </component>
@@ -235,7 +141,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -265,6 +170,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CCMBaseCustomerSite0.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CCMBaseCustomerSite0.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mailchimp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -333,28 +256,6 @@
               <option name="myItemId" value="projects" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CCMBaseCustomerSite0.1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CCMBaseCustomerSite0.1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="commercial" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -362,6 +263,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -374,24 +276,18 @@
     <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Workspaces\staticWebsites\CCMBaseCustomerSite0.1\html" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DevelopmentProjects\CCM_WEBSITE\CCMBaseCustomerSite0.1\html\images\projects\commercial" />
       <recent name="E:\Workspaces\staticWebsites\CCMCustomerSite\CCMBaseCustomerSite0.1\html\images\projects\residential" />
       <recent name="E:\Workspaces\staticWebsites\CCMCustomerSite\CCMBaseCustomerSite0.1\html\images\projects\commercial" />
       <recent name="C:\Users\blaine614\WebstormProjects\CCMBaseCustomerSite0.1\html" />
       <recent name="E:\Workspaces\staticWebsites\CCMBaseCustomerSite0.1\html" />
-      <recent name="E:\Workspaces\staticWebsites\CCMBaseCustomerSite0.1" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Workspaces\staticWebsites\CCMBaseCustomerSite0.1\html" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.contact.html">
-    <configuration default="false" name="gallery.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CCMBaseCustomerSite0.1/html/gallery.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="grid-system.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CCMBaseCustomerSite0.1/html/grid-system.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.projects-commercial-industrial.html">
     <configuration default="false" name="post.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CCMBaseCustomerSite0.1/html/post.html">
       <method />
     </configuration>
@@ -399,6 +295,12 @@
       <method />
     </configuration>
     <configuration default="false" name="contact.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CCMBaseCustomerSite0.1/html/contact.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CCMBaseCustomerSite0.1/html/index.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="projects-commercial-industrial.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CCMBaseCustomerSite0.1/html/projects-commercial-industrial.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -458,19 +360,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.gallery.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.grid-system.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.post.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.about.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.contact.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.post.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.about.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.contact.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.projects-commercial-industrial.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.contact.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.about.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.post.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.grid-system.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.gallery.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.projects-commercial-industrial.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.contact.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.about.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.post.html" />
       </list>
     </recent_temporary>
   </component>
@@ -500,20 +402,22 @@
       <workItem from="1481157283314" duration="4988000" />
       <workItem from="1482945934905" duration="3810000" />
       <workItem from="1482983466553" duration="1618000" />
+      <workItem from="1483024164431" duration="3386000" />
+      <workItem from="1483029038106" duration="87000" />
+      <workItem from="1483032543076" duration="6492000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75030000" />
+    <option name="totallyTimeSpent" value="84995000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24739583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13697916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -525,6 +429,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -547,28 +452,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pay-bill.html" />
-    <entry file="file://$PROJECT_DIR$/html/projects-residential.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="34" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -577,7 +464,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#9446#9451#0" expanded="true" />
+            <element signature="e#9472#9477#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -648,7 +535,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -657,7 +543,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#9446#9451#0" expanded="true" />
+            <element signature="e#9472#9477#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -809,23 +695,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
           <caret line="105" column="32" selection-start-line="105" selection-start-column="32" selection-end-line="105" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="107" column="32" selection-start-line="107" selection-start-column="32" selection-end-line="107" selection-end-column="32" />
+        <state relative-caret-position="402">
+          <caret line="148" column="27" selection-start-line="148" selection-start-column="27" selection-end-line="148" selection-end-column="27" />
           <folding>
-            <element signature="e#9446#9451#0" expanded="true" />
+            <element signature="e#9472#9477#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/drain_service.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
+        <state relative-caret-position="1785">
           <caret line="105" column="32" selection-start-line="105" selection-start-column="32" selection-end-line="105" selection-end-column="32" />
           <folding />
         </state>
@@ -833,7 +718,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/heating-and-cooling.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
+        <state relative-caret-position="1785">
           <caret line="105" column="32" selection-start-line="105" selection-start-column="32" selection-end-line="105" selection-end-column="32" />
           <folding>
             <element signature="e#6426#6431#0" expanded="true" />
@@ -843,15 +728,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/pay-bill.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="107" column="32" selection-start-line="107" selection-start-column="32" selection-end-line="107" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/plumbing.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
+        <state relative-caret-position="1819">
           <caret line="107" column="32" selection-start-line="107" selection-start-column="32" selection-end-line="107" selection-end-column="32" />
           <folding />
         </state>
@@ -859,7 +736,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/project-management.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
+        <state relative-caret-position="1785">
           <caret line="105" column="32" selection-start-line="105" selection-start-column="32" selection-end-line="105" selection-end-column="32" />
           <folding>
             <element signature="e#6426#6431#0" expanded="true" />
@@ -867,19 +744,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/projects-commercial-industrial.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="105" column="32" selection-start-line="105" selection-start-column="32" selection-end-line="105" selection-end-column="32" />
-          <folding>
-            <element signature="e#7780#7785#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/projects-residential.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
+        <state relative-caret-position="1785">
           <caret line="105" column="32" selection-start-line="105" selection-start-column="32" selection-end-line="105" selection-end-column="32" />
           <folding />
         </state>
@@ -887,17 +754,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/service.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
+        <state relative-caret-position="1819">
           <caret line="107" column="52" selection-start-line="107" selection-start-column="52" selection-end-line="107" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/plumbing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="117" column="26" selection-start-line="117" selection-start-column="26" selection-end-line="117" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/mailchimp/process-subscribe.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/mailchimp/config.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/mailchimp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="108" column="32" selection-start-line="108" selection-start-column="32" selection-end-line="108" selection-end-column="32" />
+        <state relative-caret-position="-6755">
+          <caret line="267" column="0" selection-start-line="267" selection-start-column="0" selection-end-line="267" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/projects-commercial-industrial.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3434">
+          <caret line="202" column="56" selection-start-line="202" selection-start-column="56" selection-end-line="202" selection-end-column="56" />
+          <folding>
+            <element signature="e#7780#7785#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

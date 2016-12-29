@@ -134,8 +134,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-8 margin-btm-30">
-
-                    <form method="GET" action="mailto:kellee@capitalcitymech.com" enctype="text/plain" class="b-contact">
+                    <!-- form -->
+                    <form method="GET" action="mailto:blaine614@gmail.com" enctype="text/plain" class="b-contact">
                         <div class="row">
                             <div class="col-sm-12"> 
                                 <div class="row">
@@ -171,7 +171,7 @@
                             </div>
                         </div>
                     </form>
-
+                    <!-- End of the form -->
                 </div><!--contact col end-->
                 <div class="col-sm-3 col-sm-offset-1">
 
@@ -322,6 +322,36 @@
                 });
 
             })(this.jQuery);
+        </script>
+        <script type="text/javascript">
+            var form = document.getElementsByTagName('form')[0];
+            form.addEventListener('submit', contact, false);
+
+            function contact(e) {
+                // Prevent Default Form Submission
+                e.PreventDefault();
+
+                var target = e.target || e.srcElement;
+                var i = 0;
+                var message = '';
+
+                // Loop through all of the input fields
+                for(i = 0; i < target.length; ++i) {
+                    // Check to make sure it's a value. Don't need to include buttons
+                    if(target[i].type != 'text' && target[i].type != 'textarea') {
+                        //Skip to the next input since this one doesn't match our rules
+                        continue;
+                    }
+
+                    //Add Input Name and vlaue followed by a line break
+                    message += target[i].name + ': ' + target[i].value + "\r\n";
+                }
+                //Modify the hidden body input field that is required for the mailto: scheme
+                target.elements["body"].value = message;
+
+                //Submit the form since we previously stopped it. may cause recursive loop in some cases
+                this.submit();
+            }
         </script>
     </body>
 </html>
